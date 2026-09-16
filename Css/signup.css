@@ -1,0 +1,54 @@
+:root{
+    
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+
+}
+.ImageContainer{
+    background-image: url(../Images/sarmat-batagov-adyn5pgFPAE-unsplash.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+    
+}
+.title{
+    
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.39) ;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: center;
+}
+.odinimage{
+    height: 200px;
+    width: auto;
+    align-self: center;
+    
+    
+}
+.odintitle{
+    color: white;
+    font-size: 100px;
+    align-self: center;
+}
+
+.formContainer{
+    width: 50%;
+}
