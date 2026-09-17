@@ -4,11 +4,10 @@
 }
 
 :root{
-    --button-color:rgb(136, 176, 227);
-    
+    --button-color:#81b0ba;
 }
 html{
-    height: 100%;
+height: 100vh;
 }
 body{
     height: 100%;
@@ -17,7 +16,6 @@ body{
     justify-content: space-evenly;
     margin: 0;
     padding: 0;
-   
 
 }
 .ImageContainer{
@@ -26,72 +24,116 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40%;
+    width: 38%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-   
-    
-    
+    justify-content: space-between;
 }
 .title{
-    
     width: auto;
     background-color: rgba(0, 0, 0, 0.39) ;
     display: flex;
     flex-direction: row;
-    height: 300px;
+    height: 240px;
     justify-content: center;
+    margin-top: 30%;
 }
 .odinimage{
-    height: 200px;
+    height: 160px;
     width: auto;
     align-self: center;
-    
-    
 }
 .odintitle{
     color: white;
-    font-size: 200px;
+    font-size: 160px;
     align-self: center;
     font-family: norse-bold,sans-serif;
 }
 
 .formContainer{
-    width: 60%;
+    width: 62%;
     background-color: rgb(250, 249, 249);
-    heighht:100%;
-    width: 100%;
-    padding-top: 8%;
-    
+    height:100%;
+    padding-top: 7%;
+    box-sizing: border-box;
 }
 .forminput-section{
     display: flex;
     flex-direction:row;
-    background-color: white;
-    box-shadow: 0 0  10px rgba(0, 0, 0, 0.452);
     height: 40%;
     padding:4% ;
-    gap: 100px;
-    justify-content: center;
-   
-    
+    gap: 80px;
+    justify-content: left;
+    padding-top: 3%;
+}
+.formsection{
+    background-color: white;
+    box-shadow: 0 4px  8px rgba(0, 0, 0, 0.26);
 }
 .form-left,.form-right{
-    width: 50%;
+    width: 30%;
 }
 label{
     display: block;
-    font-size: 25px;
+    font-size:14.4px;
+    font-family:'Lucida Sans';
+    letter-spacing: 2px;
+    margin-bottom: 5px;
 }
 input{
-    width:50% ;
+    width:320px;
+    border: 1.6px solid rgba(36, 36, 36, 0.212);
+    height: 22.4px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 17.6px;
+
+
 }
 .header{
-    font-size: 36px;
+    font-size: 28.8px;
     font-family: sans-serif;
-    padding: 4%;
+    margin: 4%;
     font-weight: bold;
-    
+    line-height: 36px;
+
 }
 
+button{
+    margin-top: 64px;
+    margin-left: 4%;
+    height: 59.2px;
+    width: 240px;
+    font-size: 19.2px;
+    background-color: var(--button-color);
+    color: rgb(255, 255, 255);
+    font-family:Arial;
+    font-weight: bold;
+    border-radius: 6.4px;
+    border:none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.329);
+}
+
+.login{
+    margin-left: 4%;  
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.lets{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 4%;
+    margin: 0;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+.imgfooter{
+    color: white;
+    font-weight: 0.9;
+    font-family: sans-serif;
+    text-align: center;
+
+}
