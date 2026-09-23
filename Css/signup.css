@@ -137,3 +137,13 @@ button{
     text-align: center;
 
 }
+
+input[type="password"]:invalid{
+    border: 2px rgba(255, 0, 0, 0.315) solid;
+
+}
+input:focus{
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.349);
+    border: 2px #81afba solid;
+    outline: none;
+}
